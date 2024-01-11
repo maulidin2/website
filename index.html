@@ -467,39 +467,36 @@ Have fun creating your portfolio on this template!!! -->
     </section>
     <!-- END Contact Section -->
 
-  <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            href="https://twitter.com/maulidin245"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa fa-twitter"></i>
-          </a>
-          
-          <a
-            href="https://github.com/maulidin2"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa fa-github"></i>
-          </a>
-        </div>
-        <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span>
-          >. <br /> 
-        </p>
-      </div>
-    </footer>
-    <!-- END Footer Section -->
+### Footer Section
+
+- Put your social media link on each `<a>` links.
+- If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/icons) to put the corresponding additional social icon classNames.
+- You can delete or add as many `<a>` links your want.
+
+```html
+<!-- Footer Section -->
+<footer class="footer">
+  ...
+  <div class="social-links">
+    <a href="https://twitter.com/maulidin245" target="_blank">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-codepen"></i>
+    </a>
+    <a href="#!" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/maulidin2" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+  ...
+</footer>
+<!-- END Footer Section -->
 
     <script>
       document.getElementById("year").textContent = new Date().getFullYear()
